@@ -1,2 +1,4 @@
-hello:hello.c
-      gcc hello.c -o hello
+CC=gcc
+
+hello : hello.c
+	${CC} hello.c -o hello
