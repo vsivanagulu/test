@@ -1,4 +1,4 @@
 CC=gcc
 
-hello : hello.c
+hello: hello.c
 	${CC} hello.c -o hello
